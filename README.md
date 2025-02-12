@@ -23,10 +23,10 @@
 
 > **Prerequisite:** Ensure that you have Python installed.
 
-1. Navigate to the `/algor` directory.
+1. Navigate to the `/algo` directory.
 2. Create a Python virtual environment and activate it:
     ```
-   `python -m venv .venv
+   python -m venv .venv
     . .venv/Scripts/activate
      ```
 4. Install the required packages:
