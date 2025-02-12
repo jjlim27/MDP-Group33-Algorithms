@@ -23,7 +23,7 @@
 
 > **Prerequisite:** Ensure that you have Python installed.
 
-1. Navigate to the `/algorithms-python` directory.
+1. Navigate to the `/algor` directory.
 2. Create a Python virtual environment and activate it:
    ```sh
    python -m venv .venv
