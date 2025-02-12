@@ -26,7 +26,8 @@
 1. Navigate to the `/algor` directory.
 2. Create a Python virtual environment and activate it:
     ```
-   `python -m venv .venv. .venv/Scripts/activate
+   `python -m venv .venv
+    . .venv/Scripts/activate
      ```
 4. Install the required packages:
    ```sh
