@@ -25,18 +25,18 @@
 
 1. Navigate to the `/algor` directory.
 2. Create a Python virtual environment and activate it:
-   `python -m venv .venv
-. .venv/Scripts/activate
+    ```
+   `python -m venv .venv. .venv/Scripts/activate
      ```
-3. Install the required packages:
+4. Install the required packages:
    ```sh
    pip install -r requirements.txt
    ```
-4. Start the application:
+5. Start the application:
    ```sh
    uvicorn main:app --reload
    ```
-5. The Algorithm Server will now be running at [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
+6. The Algorithm Server will now be running at [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
 ---
 
