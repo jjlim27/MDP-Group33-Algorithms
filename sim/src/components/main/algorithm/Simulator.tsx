@@ -105,7 +105,6 @@ export const Algorithm = () => {
         ) {
           if (robotPositions[nextStep].theta === -1)
             toast.success("Image Scanned!");
-          else toast("Scanning image...");
         } else {
           setCurrentRobotPosition(robotPositions[nextStep]);
         }
@@ -129,7 +128,7 @@ export const Algorithm = () => {
       ) {
         if (robotPositions[currentStep].theta === -1)
           toast.success("Image Scanned!");
-        else toast("Scanning image...");
+       
       } else {
         setCurrentRobotPosition(robotPositions[currentStep]);
       }
