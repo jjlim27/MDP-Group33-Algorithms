@@ -249,16 +249,16 @@ def convertThetatoNumericDirection(theta):
     '''
     # East
     if -math.pi / 4 <= theta and theta < math.pi / 4:
-        return 3
+        return 6
     # North
     elif math.pi / 4 <= theta and theta <= 3 * math.pi / 4:
-        return 1
+        return 2
     # West
     elif (3 * math.pi / 4 < theta and theta <= math.pi) or (-math.pi <= theta and theta < -3 * math.pi / 4):
         return 4
     # South
     elif (-3 * math.pi / 4 <= theta and theta <= -math.pi / 4):
-        return 2
+        return 8
     
     # Default: North
-    return 1
+    return 2

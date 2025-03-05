@@ -8,9 +8,9 @@ from default.types import Position
 from default.constants import OBSTACLE_WIDTH
 
 _mappings = {
-    '1': Direction.NORTH,
-    '2': Direction.SOUTH,
-    '3': Direction.EAST,
+    '2': Direction.NORTH,
+    '8': Direction.SOUTH,
+    '6': Direction.EAST,
     '4': Direction.WEST
 }
 
